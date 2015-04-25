@@ -1,0 +1,10 @@
+{
+    "name": "swags",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "swags.xml",
+    "author": "talithakaia",
+    "minimum_firmware_version": 42
+}
