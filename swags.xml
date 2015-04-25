@@ -8,46 +8,16 @@
           </block>
         </value>
         <next>
-          <block type="movement_reverse" id="965">
+          <block type="movement_left" id="1077">
             <next>
-              <block type="robot_delay" id="986" inline="true">
+              <block type="robot_delay" id="1120" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="993">
+                  <block type="math_number" id="1127">
                     <field name="NUM">2000</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_left" id="984">
-                    <next>
-                      <block type="robot_delay" id="1022" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="1029">
-                            <field name="NUM">2000</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="movement_right" id="1041">
-                            <next>
-                              <block type="robot_delay" id="1060" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="1067">
-                                    <field name="NUM">2000</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="movement_stutter" id="1058">
-                                    <next>
-                                      <block type="movement_stop" id="1010"></block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
+                  <block type="movement_right" id="1097"></block>
                 </next>
               </block>
             </next>
