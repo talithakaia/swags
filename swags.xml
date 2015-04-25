@@ -8,7 +8,7 @@
           </block>
         </value>
         <next>
-          <block type="movement_left" id="1178">
+          <block type="movement_right" id="1312">
             <next>
               <block type="robot_delay" id="1201" inline="true">
                 <value name="DELAY">
